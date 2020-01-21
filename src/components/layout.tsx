@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
+import Header from './Header';
+import Footer from './Footer';
 
-import Header from './header';
 import './layout.css';
 
-const Layout = (props: any) => {
-	const { children } = props;
+const Layout: React.FC = props => {
 	const data = useStaticQuery(graphql`
 		query SiteTitleQuery {
 			site {
@@ -15,14 +16,18 @@ const Layout = (props: any) => {
 			}
 		}
 	`);
-
 	return (
-		<>
-			<Header siteTitle={data.site.siteMetadata.title} />
-			<main>{children}</main>
-			<footer>© {new Date().getFullYear()}, Built with ❤️</footer>
-		</>
+		<Fragment>
+			<Header title={data.site.siteMetadata.title} />
+			<MainContainer>{props.children}</MainContainer>
+			<Footer title={data.site.siteMetadata.title} />
+		</Fragment>
 	);
 };
 
 export default Layout;
+
+const MainContainer = styled.main`
+	margin-top: 56px;
+	min-height: 100vh;
+`;

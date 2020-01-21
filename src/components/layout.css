@@ -30,15 +30,24 @@
 }
 :root {
 	--logo-font: 'Federo', sans-serif;
-	--app-font: 'Fahkwang', sans-serif;
+  --app-font: 'Fahkwang', sans-serif;
+  --primary: royalblue;
 }
 * {
   margin: 0;
   padding: 0;
 }
 #___gatsby {
-	background: rgb(241, 241, 241);
+	background: #f1f1f1;
 }
 html, body {
 	font-family: var(--app-font);
 }
+/* html::-webkit-scrollbar {
+  width: 4px;
+  background-color: #f1f1f1;
+} */
+/* html::-webkit-scrollbar-thumb {
+  width: 4px;
+  background-color: var(--primary);
+} */

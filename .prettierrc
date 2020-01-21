@@ -1,12 +1,13 @@
 {
-	"endOfLine": "lf",
-	"semi": true,
-	"singleQuote": false,
-	"tabWidth": 2,
-	"useTabs": true,
-	"printWidth": 140,
-	"trailingComma": "es5",
-	"bracketSpacing": true,
-	"jsxSingleQuote": true,
-	"arrowParens": "avoid"
+  "parser": "typescript",
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "useTabs": true,
+  "printWidth": 140,
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "trailingComma": "none",
+  "jsxSingleQuote": true,
+  "arrowParens": "avoid"
 }
