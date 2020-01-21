@@ -1,45 +1,53 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "gatsby": "^2.13.45",
-    "gatsby-image": "^2.2.7",
-    "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-plugin-offline": "^2.2.4",
-    "gatsby-plugin-react-helmet": "^3.1.2",
-    "gatsby-plugin-sharp": "^2.2.9",
-    "gatsby-source-filesystem": "^2.1.7",
-    "gatsby-transformer-sharp": "^2.2.5",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
-    "reactstrap": "^8.0.1"
-  },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+	"name": "gatsby-starter-default",
+	"private": true,
+	"description": "A simple starter to get up and developing quickly with Gatsby",
+	"version": "0.1.0",
+	"author": "Kyle Mathews <mathews.kyle@gmail.com>",
+	"dependencies": {
+		"bootstrap": "^4.4.1",
+		"firebase": "^7.7.0",
+		"gatsby": "^2.19.1",
+		"gatsby-image": "^2.2.39",
+		"gatsby-plugin-manifest": "^2.2.37",
+		"gatsby-plugin-offline": "^3.0.32",
+		"gatsby-plugin-react-helmet": "^3.1.21",
+		"gatsby-plugin-sharp": "^2.4.0",
+		"gatsby-plugin-typescript": "^2.1.26",
+		"gatsby-source-filesystem": "^2.1.46",
+		"gatsby-transformer-sharp": "^2.3.13",
+		"prop-types": "^15.7.2",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-helmet": "^5.2.1",
+		"reactstrap": "^8.0.1",
+		"styled-components": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/react-helmet": "^5.0.15",
+		"@types/reactstrap": "^8.4.1",
+		"@types/styled-components": "^4.4.2",
+		"prettier": "^1.19.1",
+		"typescript": "^3.7.5"
+	},
+	"keywords": [
+		"gatsby"
+	],
+	"license": "MIT",
+	"scripts": {
+		"build": "gatsby build",
+		"develop": "gatsby develop",
+		"format": "prettier --write src/**/*.{js,jsx}",
+		"start": "npm run develop",
+		"serve": "gatsby serve",
+		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+		"type-check": "tsc --noEmit"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gatsbyjs/gatsby-starter-default"
+	},
+	"bugs": {
+		"url": "https://github.com/gatsbyjs/gatsby/issues"
+	}
 }
