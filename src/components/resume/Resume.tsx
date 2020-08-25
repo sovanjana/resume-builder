@@ -20,7 +20,7 @@ export default function Resume(props: any) {
 				</div>
 				<div className='personal-detail d-flex flex-column align-items-start px-3'>
 					<p>www.linkedin.com/in/sovan-jana-92788b67/</p>
-					<p>github.com/janasovan</p>
+					<p>github.com/sovanjana</p>
 				</div>
 				<div className='personal-detail d-flex flex-column align-items-start px-3'>
 					<p>Vill.+ P.O.: Gopalpur, P.S.: Mahishadal, 721628</p>
