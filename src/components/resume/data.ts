@@ -5,18 +5,16 @@ export const skills: string[] = [
 	'HTML5',
 	'CSS3',
 	'Bootstrap',
+	'Material UI',
+	'Styled Components',
+	'Sass',
 	'Redux',
 	'NodeJS',
 	'GatsbyJS',
 	'Google Cloud Platform',
 	'GraphQL',
 	'Git',
-	'DevOps',
-	'C',
-	'Java',
-	'Spring',
-	'Hybernate',
-	'MySQL'
+	'DevOps'
 ];
 
 export const companies: Array<{
@@ -45,14 +43,28 @@ export const companies: Array<{
 		heading: 'Software Development Engineer',
 		subheading: 'Wit By Bit',
 		midsub: 'Kolkata, India',
-		supersub: 'December 2016 - present',
+		supersub: 'December 2016 - August 2020',
 		list: [
 			'Role: Frontend Developer',
 			'Designed and Developed large scale webapps using JavaScript, TypeScript, React, Redux, HTML, CSS, GraphQl & GCP etc.',
 			'Worked on Express.js, Node,js, Electron to develop desktop apps using NoSQL Database and queries. ',
 			'Developing components as well as debugging, testing and Reviewing codes.',
-			'Participate into the scrum meetings and do the technical specification.',
-			'Responsible for the assigned tasks deliverables '
+			'Responsible for the assigned tasks deliverables.'
+		]
+	},
+	{
+		id: 2,
+		heading: 'Engineer II',
+		subheading: 'DayToDay Health',
+		midsub: 'Bangalore, India',
+		supersub: 'August 2020 - present',
+		list: [
+			'Role: Frontend Developer',
+			'Designed and Developed large scale webapps using JavaScript, TypeScript, React, Redux, HTML, CSS etc.',
+			'Integrating frontend with backend data by calling APIs and CRUD operations.',
+			'Developing components as well as debugging, testing and Reviewing codes.',
+			'Participate into the design meetings and suggest user friendly design.',
+			'Responsible for the assigned tasks deliverables.'
 		]
 	}
 ];
@@ -95,7 +107,7 @@ export const projects: Array<{
 }> = [
 	{
 		id: 1,
-		heading: 'QuizShow (April, 2017 - present)',
+		heading: 'QuizShow (April, 2017 - August 2020)',
 		list: [
 			'Type: A Progressive Web Application',
 			'QuizShow is a realtime quiz with admin dashboard, statistics and customizable options.',
@@ -113,7 +125,7 @@ export const projects: Array<{
 	},
 	{
 		id: 3,
-		heading: 'Decorum (June, 2018 - present)',
+		heading: 'Decorum (June, 2018 - August 2020)',
 		list: [
 			'Type: Web Application',
 			"Decorum is a cloud-based platform for SMEs and MSMEs to manage and streamline customers/ distributors, sales team and back office. It uses data analysis about customers' history with a company to improve business relationships with customers with big-data analysis. It lets businesses set up their outlets and manage order in a customized flow. Even, restaurants can take up orders in tables on the application and manage the tasks efficiently. Major billing software such as Tally, SAP has also been integrated for seamless experience.",
@@ -121,12 +133,30 @@ export const projects: Array<{
 		]
 	},
 	{
-		id: 7,
-		heading: 'Labour Compliance (July, 2018 - present)',
+		id: 4,
+		heading: 'Labour Compliance (July, 2018 - August 2020)',
 		list: [
 			'Type: Web Application (a World Bank project)',
 			'A complete solution of labour management and compliance system.',
 			'Application made with JavaScript, ReactJS, Firestore, Cloud Function, HTML5, CSS3 and Bootstrap.'
+		]
+	},
+	{
+		id: 5,
+		heading: 'DayToDay Web Dashboard (August, 2020 - present)',
+		list: [
+			'Type: Web Application (a health care project)',
+			'End to end patient management solution.',
+			'Application made with JavaScript, ReactJS, MongoDB, HTML5, CSS3 and Bootstrap.'
+		]
+	},
+	{
+		id: 6,
+		heading: 'DayToDay PWA (June, 2021 - present)',
+		list: [
+			'Type: Mobile Application (a health care project)',
+			'End to end patient management solution.',
+			'Application made with JavaScript, TypeScript, ReactJS, MongoDB, HTML5, CSS3 and Material UI.'
 		]
 	}
 ];

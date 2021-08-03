@@ -20,7 +20,7 @@ export default function Summary(_props) {
           <h4>Frontend Developer</h4>
           <p>
             Frontend Developer with a demonstrated history of working in the
-            development industry. 3+ yrs. of experience in working with JavaScript,
+            development industry. 5+ yrs. of experience in working with JavaScript,
             TypeScript, ReactJS, NodeJS and GraphQL. People know me as a
             simple and polite person and someone who can come up with new
             ideas and solutions. I embrace the opportunity to learn new things
